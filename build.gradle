@@ -5,7 +5,7 @@ buildscript {
     ext.anko_version = '0.10.1'
     ext.plugin_version = '2.3.2'
     repositories {
-        google()
+        //google()
         jcenter()
     }
     dependencies {
@@ -18,7 +18,7 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
+        //google()
         jcenter()
     }
 }
